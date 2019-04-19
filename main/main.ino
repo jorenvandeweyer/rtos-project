@@ -54,11 +54,12 @@ void TaskESC(void *pvParameters) {
 
     for(;;) {
         if (Serial.available() > 0) {
-            val = Serial.parseInt();
-            Serial.parseInt();
+            char inputBuffer[16];
+            Serial.readBytes(inputBuffer, sizeof(inputBuffer));
+            val = atoi(inputBuffer);
             if (val < 0) val = 0;
             if (val > 180) val = 180;
-            //Serial.flush();
+            Serial.flush();
             myServo.write(val);
         }
 

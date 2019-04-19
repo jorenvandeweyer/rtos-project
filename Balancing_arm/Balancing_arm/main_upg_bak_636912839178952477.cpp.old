@@ -1,0 +1,18 @@
+/*
+ * Balancing_arm.cpp
+ *
+ * Created: 4/19/2019 3:18:24 PM
+ * Author : piete
+ */ 
+
+#include <avr/io.h>
+
+
+int main(void)
+{
+    /* Replace with your application code */
+    while (1) 
+    {
+    }
+}
+

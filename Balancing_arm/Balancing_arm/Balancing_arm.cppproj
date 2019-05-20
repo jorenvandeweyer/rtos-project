@@ -29,15 +29,15 @@
     <ExternalProgrammingToolCommand />
     <AsfFrameworkConfig>
       <framework-data>
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.34.1" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.34.1" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <preserveEEPROM>true</preserveEEPROM>
     <ResetRule>0</ResetRule>
@@ -433,6 +433,7 @@ build.path=C:\Users\piete\AppData\Local\Temp\VMBuilds\Balancing_arm\uno\Debug
         <visualmicro.application.name>visualmicro</visualmicro.application.name>
         <visualmicro.package.name>arduino</visualmicro.package.name>
         <visualmicro.platform.name>avr</visualmicro.platform.name>
+        <arduino.upload.port>COM8</arduino.upload.port>
       </VisualMicroSettings>
     </VisualMicroSettings>
   </PropertyGroup>
@@ -468,6 +469,7 @@ build.path=C:\Users\piete\AppData\Local\Temp\VMBuilds\Balancing_arm\uno\Debug
       <Value>C:/Users/piete/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.23/libraries/Wire/src</Value>
       <Value>C:/Users/piete/Documents/Arduino/libraries/Arduino-L3G4200D-master</Value>
       <Value>C:/Users/piete/Documents/Arduino/libraries/Servo/src</Value>
+      <Value>C:/Users/piete/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.23/libraries/Wire/src/utility</Value>
       <Value>C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/2egnnpgu.dem/Micro Platforms/visualmicro/ide-atmel/libraries</Value>
       <Value>C:/Users/piete/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.23/libraries</Value>
       <Value>C:/Users/piete/Documents/Arduino/libraries</Value>
@@ -509,6 +511,7 @@ build.path=C:\Users\piete\AppData\Local\Temp\VMBuilds\Balancing_arm\uno\Debug
       <Value>C:/Users/piete/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.23/libraries/Wire/src</Value>
       <Value>C:/Users/piete/Documents/Arduino/libraries/Arduino-L3G4200D-master</Value>
       <Value>C:/Users/piete/Documents/Arduino/libraries/Servo/src</Value>
+      <Value>C:/Users/piete/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.23/libraries/Wire/src/utility</Value>
       <Value>C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/2egnnpgu.dem/Micro Platforms/visualmicro/ide-atmel/libraries</Value>
       <Value>C:/Users/piete/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.23/libraries</Value>
       <Value>C:/Users/piete/Documents/Arduino/libraries</Value>
@@ -826,6 +829,7 @@ build.path=C:\Users\piete\AppData\Local\Temp\VMBuilds\Balancing_arm\uno\Debug
         <visualmicro.application.name>visualmicro</visualmicro.application.name>
         <visualmicro.package.name>arduino</visualmicro.package.name>
         <visualmicro.platform.name>avr</visualmicro.platform.name>
+        <arduino.upload.port>COM8</arduino.upload.port>
       </VisualMicroSettings>
     </VisualMicroSettings>
   </PropertyGroup>

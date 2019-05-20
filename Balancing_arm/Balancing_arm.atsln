@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Balancing_arm", "Balancing_arm\Balancing_arm.cppproj", "{C81EAF1A-0A54-410B-B45E-6B0DB2E92897}"
 EndProject
-Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "test_project", "C:\Users\piete\Documents\Arduino\test_project\test_project.cppproj", "{1EA5D2EA-F15C-4924-966C-437A27F30E6E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -17,10 +15,6 @@ Global
 		{C81EAF1A-0A54-410B-B45E-6B0DB2E92897}.Debug|AVR.Build.0 = Debug|AVR
 		{C81EAF1A-0A54-410B-B45E-6B0DB2E92897}.Release|AVR.ActiveCfg = Release|AVR
 		{C81EAF1A-0A54-410B-B45E-6B0DB2E92897}.Release|AVR.Build.0 = Release|AVR
-		{1EA5D2EA-F15C-4924-966C-437A27F30E6E}.Debug|AVR.ActiveCfg = Debug|AVR
-		{1EA5D2EA-F15C-4924-966C-437A27F30E6E}.Debug|AVR.Build.0 = Debug|AVR
-		{1EA5D2EA-F15C-4924-966C-437A27F30E6E}.Release|AVR.ActiveCfg = Release|AVR
-		{1EA5D2EA-F15C-4924-966C-437A27F30E6E}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
